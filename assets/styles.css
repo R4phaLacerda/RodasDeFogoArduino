@@ -228,65 +228,6 @@
     animation: cursor 1s infinite, typing 20s steps(14) infinite; /* Adiciona uma animação que simula um cursor */
   }
   
-  @keyframes cursor {
-    /* Define a animação do cursor */
-    to {
-      border-left: 3px solid var(--main-color); /* Adiciona uma borda à esquerda */
-    }
-  }
-  
-  @keyframes words {
-    /* Define a animação das palavras */
-    0%,
-    20% {
-      content: "Desenvolvedor Frontend"; /* Adiciona um conteúdo */
-    }
-    21%,
-    40% {
-      content: "Desenvolvedor Backend"; /* Adiciona um conteúdo */
-    }
-    41%,
-    60% {
-      content: "Desenvolvedor Mobile"; /* Adiciona um conteúdo */
-    }
-    61%,
-    80% {
-      content: "Desenvolvedor Web"; /* Adiciona um conteúdo */
-    }
-    81%,
-    100% {
-      content: "Desenvolvedor Fullstack"; /* Adiciona um conteúdo */
-    }
-  }
-  
-  @keyframes typing {
-    /* Define a animação da digitação */
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-      width: 0; /* Define a largura como zero */
-    }
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85%,
-    100% {
-      width: calc(100% + 8px); /* Define a largura de acordo com o conteúdo */
-    }
-  }
-  
   .heading {
     font-size: 2rem; /* Define o tamanho da fonte equivalente a 40px */
     text-align: center; /* Alinha o texto ao centro */
